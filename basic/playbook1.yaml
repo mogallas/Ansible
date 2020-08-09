@@ -1,0 +1,7 @@
+---
+- hosts: all
+  #become: true
+  tasks:
+  - name: copy files
+    user:
+      name: srini 

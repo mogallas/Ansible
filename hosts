@@ -1,0 +1,11 @@
+[all:vars]
+ansible_user=cloud_user
+ansible_become=true 
+ansible_sudo_pass=IBMers_47!
+
+
+[nodes]
+sisoppin[2:3]c.mylabserver.com  
+
+[controller]
+sisoppin1c.mylabserver.com
